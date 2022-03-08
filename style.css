@@ -5,6 +5,17 @@
   list-style: none;
 }
 
+/* Colors
+ --color-accent1: #9100FF; */
+:root {
+  --color-primary1: #fff;
+  --color-primary2: #FFCEEA;
+  --color-secondary1: #9845cf ;
+  --color-secondary2: #290055;
+  --color-accent2: #F20C70;
+}
+
+
 /* Fonts */
 body {
   font-family: "Poppins", sans-serif;
@@ -111,15 +122,15 @@ header {
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: #222;
+  background-color:  var(--color-primary1);
 }
 
 header h1 {
-  color: #eee;
+  color: var(--color-secondary2);
 }
 
 header p {
-  color: #ddd;
+  color: var(--color-secondary1);
 }
 
 header button {
