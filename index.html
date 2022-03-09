@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,17 +15,23 @@
   </head>
   <body>
     <nav>
-        <a class="logo" href="index.html">Logo</a>
+    <div>  <a class="logo" href="index.html">Logo</a></div>  
         <div>
           <ul>
             <li><a href="#product">Product</a></li>
             <li><a href="#solution">Solution</a></li>
           </ul>
         </div>
-        <button type="button">Learn More &#x2794;</button>
+        <div class="nav_right">
+
+<div class="toggle_container">
+   <input type="checkbox" id="switch" name="theme" /><label for="switch">Toggle</label>
+</div>
+<div> <button type="button">Learn More &#x2794;</button></div>
+</div>
       </ul>
     </nav>
-    <header>
+    <header>   
       <div class="header_text">
         <h1>Quo minima te superstites</h1>
         <p>
@@ -34,6 +40,7 @@
         <button class="dark_button" type="button">Request Demo &#x2794;</button>
       </div>
       <div class="header_graphics"></div>
+     
     </header>
     <main>
     <section class="highlight">
@@ -130,6 +137,7 @@
         </div>
       </section>
     </footer>
+      <script src="dark_mode.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
