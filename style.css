@@ -88,7 +88,7 @@ label {
   text-indent: -9999px;
   width: 52px;
   height: 27px;
-  background: var(--header-bg-color);
+  background: var(--header-graphcis-color);
   float: right;
   border-radius: 100px;
   position: relative;
@@ -267,7 +267,7 @@ header p {
   min-width: 300px;
   min-height: 300px;
   border-radius: 300px;
-  background-color: var(--header-graphcis-color);
+  background-color: var(--highlight-h2-color);
 }
 
 /* product section */
