@@ -1,5 +1,3 @@
-"use strict";
-window.addEventListener("DOMContentLoaded");
 // Change theme to dark by adding the `dark` classname to html element.
 let changeThemeToDark = () => {
   document.documentElement.setAttribute("data-theme", "dark"); //set theme to light
