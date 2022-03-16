@@ -1,13 +1,3 @@
-// Change theme to dark by adding the `dark` classname to html element.
-let changeThemeToDark = () => {
-  document.documentElement.setAttribute("data-theme", "dark"); //set theme to light
-};
-
-// Reset the html class to default
-changeThemeToDark = () => {
-  document.documentElement.setAttribute("data-theme", "light"); //set theme to light
-};
-
 let theme = localStorage.getItem("data-theme");
 changeThemeToDark = () => {
   document.documentElement.setAttribute("data-theme", "dark"); // set theme to dark
