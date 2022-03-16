@@ -167,6 +167,30 @@ a:hover {
   text-decoration: underline;
 }
 
+.js_scroll {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.js_scroll.scrolled {
+  opacity: 1;
+}
+
+.scrolled.fade_in_bottom {
+  animation: fade-in-bottom 1s ease-in-out both;
+}
+
+@keyframes fade-in-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 /* UI Elements */
 button {
   display: inline-block;
@@ -181,6 +205,11 @@ button {
   background-color: var(--link-color);
   color: var(--highlight-color);
   margin-top: 2rem;
+}
+
+button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 input[type="text"] {
