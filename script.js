@@ -60,7 +60,7 @@ function animations() {
     direction: "alternate",
     easing: "ease-in-out",
   };
-
+  /* 
   const buttonKeyframes = [
     { offset: 0, transform: "translate(0,0)" },
     { offset: 0.02, transform: "translate(5px,0)" },
@@ -70,6 +70,14 @@ function animations() {
     { offset: 0.1, transform: "translate(5px,0)" },
     { offset: 0.12, transform: "translate(0,0)" },
     { offset: 1, transform: "translate(0,0)" },
+  ]; */
+
+  const buttonKeyframes = [
+    { offset: 0.3, transform: "scale(1.2)" },
+    { offset: 0.4, transform: "rotate(-20deg), scale(1.2)" },
+    { offset: 0.5, transform: "rotate(20deg), scale(1.2)" },
+    { offset: 0.7, transform: "rotate(0deg), scale(1.2)" },
+    { offset: 1, transform: "scale(1)" },
   ];
 
   const button = document.querySelector("#frontpage_button");
