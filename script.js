@@ -4,12 +4,12 @@ window.addEventListener("DOMContentLoaded", start);
 
 function start() {
   let theme = localStorage.getItem("data-theme");
-  const changeThemeToDark = () => {
+  let changeThemeToDark = () => {
     document.documentElement.setAttribute("data-theme", "dark"); // set theme to dark
     localStorage.setItem("data-theme", "dark"); // save theme to local storage
   };
 
-  const changeThemeToLight = () => {
+  let changeThemeToLight = () => {
     document.documentElement.setAttribute("data-theme", "light"); // set theme light
     localStorage.setItem("data-theme", "light"); // save theme to local storage
   };
