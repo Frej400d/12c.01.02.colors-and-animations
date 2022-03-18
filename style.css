@@ -195,7 +195,7 @@ a:hover {
 button {
   display: inline-block;
   height: 3rem;
-  padding: 1rem 2rem;
+  padding: 0 1rem;
   border: none;
   font-size: 1rem;
   text-align: center;
@@ -205,6 +205,7 @@ button {
   background-color: var(--link-color);
   color: var(--highlight-color);
   margin-top: 2rem;
+  min-width: 9rem;
 }
 
 button:hover {
@@ -259,7 +260,7 @@ nav button {
 }
 
 .toggle_container {
-  margin-right: 3rem;
+  margin-right: 2rem;
   font-family: var(--font-paragraph);
   color: var(--color-primary1);
   font-size: 1rem;
